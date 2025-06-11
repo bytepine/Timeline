@@ -5,7 +5,7 @@
 #include "TimelineAsset.h"
 #include "AbilitySystemGlobals.h"
 
-UAbilityTask_PlayTimelineAndWait* UAbilityTask_PlayTimelineAndWait::CreatePlayTimepineAndWaitProxy(
+UAbilityTask_PlayTimelineAndWait* UAbilityTask_PlayTimelineAndWait::CreatePlayTimelineAndWaitProxy(
 	UGameplayAbility* OwningAbility, FName TaskInstanceName, UTimelineAsset* TimelineToPlay, float Rate,
 	FName StartSection, bool bStopWhenAbilityEnds)
 {

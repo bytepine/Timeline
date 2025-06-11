@@ -30,7 +30,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category="Ability|Tasks", meta = (DisplayName="PlayTimelineAndWait",
 	HidePin = "OwningAbility", DefaultToSelf = "OwningAbility", BlueprintInternalUseOnly = "TRUE"))
-	static UAbilityTask_PlayTimelineAndWait* CreatePlayTimepineAndWaitProxy(UGameplayAbility* OwningAbility,
+	static UAbilityTask_PlayTimelineAndWait* CreatePlayTimelineAndWaitProxy(UGameplayAbility* OwningAbility,
 		FName TaskInstanceName, UTimelineAsset* TimelineToPlay, float Rate = 1.f, FName StartSection = NAME_None, bool bStopWhenAbilityEnds = true);
 
 protected:
